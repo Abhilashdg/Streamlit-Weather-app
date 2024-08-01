@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 from datetime import datetime
 
-st.title('Weather Forecast App')
+st.title('Streamlit Weather Forecast App -_- Beginner APP')
 
 if 'weather_data' not in st.session_state:
     st.session_state.weather_data = pd.DataFrame(columns=['City', 'Time', 'Description', 'Temperature', 'Humidity', 'Wind Speed'])
