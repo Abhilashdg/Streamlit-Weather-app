@@ -52,4 +52,4 @@ if st.button("Clear Data"):
     st.session_state.weather_data = pd.DataFrame(columns=['City', 'Time', 'Description', 'Temperature', 'Humidity', 'Wind Speed'])
     st.success("All data cleared. You can start a new search.")
     
-st.write("Hey folks hold on for few days to newer version")
+st.markdown('<h1 style="font-size: 40px;"> Hey folks wait for few more days for better versions of this application, Still it is in basement stage</h1>', unsafe_allow_html=True)
