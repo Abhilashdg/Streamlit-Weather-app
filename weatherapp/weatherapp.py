@@ -51,3 +51,5 @@ if city:
 if st.button("Clear Data"):
     st.session_state.weather_data = pd.DataFrame(columns=['City', 'Time', 'Description', 'Temperature', 'Humidity', 'Wind Speed'])
     st.success("All data cleared. You can start a new search.")
+    
+st.write("Hey folks hold on for few days to newer version")
